@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <title>Document</title>
+    
+</head>
+<body>
+    <div id="root">
+
+    </div>
+    
+    <script> 
+        var root = document.getElementById('root');
+        
+        var h1 = React.createElement('h1',null,"H1 tag is created");
+        // ReactDOM.render(h1,root);
+
+        var div1 = React.createElement('div',null, React.createElement('p',null,"1st Div with a Paragraph tag!!!"));
+        
+        var div2 = React.createElement('div',null, [React.createElement('p',null,"2nd Div with a Paragraph and Anchor tag!!!"),React.createElement('a',{href:'https://www.google.com'},"Anchor tag")]);
+        
+        var div3 = React.createElement('div',null, React.createElement('p',null,"Last Div with a Paragraph tag!!!"));
+
+        ReactDOM.render([h1, div1, div2, div3],root);
+
+    </script>
+</body>
+</html>
