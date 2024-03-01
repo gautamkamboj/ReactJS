@@ -1,0 +1,33 @@
+#main-div{
+    margin: 20px;
+    display: flex;
+}
+
+#img-div {
+    margin: 20px;
+    z-index: 1;
+}
+
+#rightside{
+    margin-left: -100px;
+    padding: 30px 150px;
+    padding-right: 20px;
+    background-color: rgb(226, 226, 226);
+}
+
+#rightside h2{
+    font-size: xx-large;
+
+}
+#rightside p{
+    font-size: large;
+}
+
+#rightside button{
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(75, 75, 233);
+    padding: 15px 35px;
+    color: white;
+    margin-top: 15px;
+}

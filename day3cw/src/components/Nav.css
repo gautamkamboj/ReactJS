@@ -1,0 +1,40 @@
+.Nav{
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.left{
+    
+    display: flex;
+    
+}
+.left img{
+    margin: 10px;
+}
+.menu{
+    width: 40vw;
+    display: flex;
+    justify-content: space-around;
+    
+}
+a{  
+    font-weight: bolder;
+    text-decoration: none;
+}
+a:hover {
+    color: blue;
+  }
+
+
+.navButton{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    border: 0;
+}

@@ -1,0 +1,31 @@
+#card-div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width: 30%;
+    margin: 20px;
+}
+#card-text{
+    background-color: rgb(243, 242, 242);
+    
+    border: 1px solid rgb(235, 232, 232);
+    border-radius: 20px;
+    padding: 10px 50px;
+}
+#card-text p{
+    font-size: large;
+    line-height: 26px;
+    
+}
+#card-profile{
+    display: flex;
+    margin: 20px;
+}
+#card-profile img{
+    border-radius: 20px;
+}
+#card-profile p{
+    margin-top: -5px;
+    margin-left: 10px;
+}
