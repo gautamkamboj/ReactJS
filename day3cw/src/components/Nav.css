@@ -30,9 +30,11 @@ a:hover {
     color: blue;
   }
 
-
+.right{
+    margin-right: 20px;
+}
 .navButton{
-    background-color: blue;
+    background-color: rgb(63, 63, 245);
     color: white;
     border-radius: 5px;
     padding: 10px;

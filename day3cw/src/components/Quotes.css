@@ -1,0 +1,18 @@
+.quotes-div {
+    background-color: whitesmoke;
+    padding: 25px 50px;
+    margin: 40px 100px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 1px;
+    text-align: center;
+}
+
+.quotes-div p{
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}
+.quotes-div span{
+    color: grey;
+    font-size: large;
+}
