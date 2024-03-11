@@ -1,0 +1,21 @@
+
+.main{
+ text-align: center;
+ padding: 100px 300px;
+ background-color: bisque;
+ 
+  
+}
+#num{
+  width: 40px;
+  height: 20px;
+  margin: 10px;
+}
+button{
+  background-color: darkorange;
+  color: white;
+  border: 0;
+  height: 25px;
+  width: 80px;
+  border-radius: 5px;
+}
