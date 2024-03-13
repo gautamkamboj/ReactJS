@@ -1,0 +1,35 @@
+.strike{
+    text-decoration: line-through;
+}
+
+.list{
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#item{
+    width: 30vw;
+    padding: 10px;
+
+}
+.addbtn{
+    background-color: cyan;
+    border: 0;
+    padding: 12px;
+    color: white;
+    font-weight: bold;
+}
+
+.deletebtn{
+    margin-top: 20px;
+    height: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
