@@ -19,12 +19,7 @@
     "predeploy": "npm run build",
 "deploy": "gh-pages -d build"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
+
   "browserslist": {
     "production": [
       ">0.2%",
@@ -35,7 +30,5 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ],
-    "homepage":"https://gautamkamboj.github.io/ReactJS/day3cw/"
-  }
+    ]  }
 }
