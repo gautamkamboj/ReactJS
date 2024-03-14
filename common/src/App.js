@@ -1,6 +1,6 @@
 
 import React, { useState } from "react";
-import Main from "./components/day7cw/Main"
+import Main from "./components/day8et/Main"
 function App() {
   
   return (
