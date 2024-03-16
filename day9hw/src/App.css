@@ -1,0 +1,22 @@
+
+.quiz {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  
+}
+
+.timer {
+  margin: 10px;
+}
+p{
+  height: 50px;
+}
+
+
+button {
+  width: 200px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
