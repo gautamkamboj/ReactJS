@@ -1,0 +1,364 @@
+/* sidebar */
+.sidebar{
+    position: fixed;
+    border-radius: 20px;
+    background-color: rgb(55, 139, 196);
+    top:20px;
+    left:40px;
+    width: 17vw;
+    height: 95vh;
+    
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.name img{
+    margin: 20px ;
+    border-radius: 20px;
+}
+.name h3{
+    margin: 10px;
+    color: white;
+}
+.hello-world{
+    width: 15vw;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 0 10px 0 white;
+    
+    background-color: blue;
+}
+.sidelogo{
+    display: flex;
+    margin: 10px 10px;
+}
+.sidelogo h5{
+    margin: 0;
+}
+.sidelogo p{
+    margin: 0;
+}
+.follow{
+    display: flex;
+    justify-content: center;
+}
+
+.follow svg{
+    margin: 10px 6px;
+}
+
+/* home */
+body{
+    
+   background-color: rgb(66, 197, 248);
+}
+.home{
+    width: 100%;
+    position: absolute;
+    top:-20px
+    }
+    
+.main{
+    margin: 0px 300px;
+    width: 72vw;
+    border-radius: 20px;
+    background-color: rgb(102, 150, 187);
+    position: relative;
+}
+.nav{
+    width: 40vw;
+    position:absolute;
+    right: 0;
+    display: flex;
+    background-color: rgb(59, 59, 202);
+    border-radius: 0 20px ;
+    
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+
+/* About */
+.about h1{
+    padding: 20px;
+
+}
+.intro{
+    white-space: pre-wrap;
+}
+
+.para{
+    background-color: rgb(49, 83, 155);
+    margin: 30px;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    
+}
+
+.para button{
+    font-weight: bolder;
+    border: 0;
+    width: 150px;
+    background-color: rgb(49, 83, 155);
+    color: white;
+    cursor: pointer;
+}
+.about h1{
+    margin: 40px;
+    color:white
+}
+.focus-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.focus{
+    width: 30vw;
+    display: flex;
+    background-color: rgb(49, 83, 155);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+.service-icon-box{
+    margin: 10px;
+}
+.service-content-box h4,p {
+    color: whitesmoke;
+    margin: 5px;
+
+}
+.about h2{
+    text-align: center;
+    color: wheat;
+}
+.about h3{
+    text-align: center;
+    color: wheat;
+}
+
+.outer-bar{
+    height: 10px;
+    background-color: black;
+    width: 90%;
+    border-radius: 5px;
+    
+}
+
+.inner-bar{
+    height: 10px;
+    background-color: rgb(204, 218, 18);
+    border-radius: 5px;
+    
+}
+
+.lang{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    margin: 20px;
+    background-color:rgb(49, 83, 155);
+    border-radius: 20px;
+}
+.lang-card div{
+    margin: 15px 0 ;
+}
+.explore{
+    background-color:rgb(49, 83, 155);
+    margin: 40px 20px;
+    padding: 20px;
+    border-radius: 20px;
+    
+
+}
+.explore-img{
+    display: flex;
+    margin: -20px 0;
+    color: white;
+}
+.explore-img img{
+    margin: -50px 20px ;
+}
+
+/* Certificates */
+.certificates h1{
+margin: 40px;
+padding: 20px;
+color: whitesmoke;
+
+}
+
+.cert-heading{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+}
+.cert-heading img{
+    margin-right: 20px;
+}
+ul{
+    list-style: none;
+    margin:40px;
+    padding:0;
+    position: relative;
+    &:before{
+        content:"";
+        display: inline-block;
+        width: 2px;
+        background: rgb(0, 0, 0);
+        position: absolute;
+        left:3px;
+        top:5px;
+        height: calc(100% - 10px );
+    }
+li{
+      position: relative;
+      padding-left: 15px;
+      margin-bottom:15px;
+      &:before{
+        content:"";
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        background: rgb(255, 251, 0);
+        position: absolute;
+        left:0;
+        top:5px;
+        border-radius: 10px;
+      }
+    }
+  }
+
+li div{
+    margin: 30px;
+}
+
+/* project */
+
+.project h1{
+    margin: 40px;
+    padding: 20px;
+    color: whitesmoke;
+}
+.project-grid{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.project-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.project-card button{
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    margin: 2px;
+    border-radius: 10px;
+    background-color: rgb(63, 102, 146);
+    color: wheat;
+    font-size: large;
+    cursor: pointer;
+}
+.project-card h3,p{
+    margin: 4px;
+
+}
+.project-card img{
+    border-radius: 20px;
+}
+
+/* more */
+
+.more h1{
+    margin: 40px;
+    padding: 20px;
+    color: whitesmoke;
+}
+.side-project-grid{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.side-project-card{
+    border-radius: 20px;
+   background-color: rgb(56, 66, 122);
+   margin: 10px;
+    
+}
+.side-project-card button{
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    margin: 2px 0;
+    border-radius: 20px;
+    background-color: rgb(63, 102, 146);
+    color: wheat;
+    font-size: large;
+    cursor: pointer;
+}
+.side-project-card h2,p{
+    margin: 10px 0;
+    padding: 0 20px;
+    color: wheat;
+    line-height: 30px;
+}
+.side-project-card img{
+    border-radius: 20px;
+}
+
+/* contact */
+.contact h1{
+    margin: 40px;
+    padding: 20px;
+    color: whitesmoke;
+
+}
+.mail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    margin: 50px;
+    background-color: #216378;
+    padding: 20px 50px;
+    border-radius: 20px;
+}
+.mail h1{
+    margin: 20px;
+}
+.mail div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(28, 80, 80);
+    width: 280px;
+    height: 40px;
+    border-radius: 5px;
+}
+.copy-btn{
+    background-color: rgb(59, 54, 50);
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.mail img{
+    border-radius: 20px;
+    margin: 5px;
+}
