@@ -24,7 +24,6 @@ const Main = ()=>{
             lower+=numbers;
         if(isChar)
             lower+=characters;
-        
 
         let newPassword = '';
 
