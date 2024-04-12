@@ -1,0 +1,8 @@
+export {default as Home} from "./Home"
+export {default as SignUp} from "./SignUp"
+export {default as Projects} from "./Projects"
+export {default as NewProject} from "./NewProject"
+export {default as EditProject} from "./EditProject"
+export {default as Python} from "./Python"
+export {default as Cpp} from "./Cpp"
+export {default as Java} from "./Java"

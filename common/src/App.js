@@ -1,14 +1,37 @@
+import React, { useEffect } from 'react';
 
-import React, { useState } from "react";
-import Main from "./components/Authentication/Main"
+const YourComponent = () => {
+  const apiToken = "G0hmBWqiGOBpASmRxEHG9g=="; // Insert your CodeJudge API token here
 
-function App() {
-  
+  useEffect(() => {
+    const fetchToken = async () => {
+      try {
+        const response = await fetch('https://app.codejudge.net/api/auth/token', {
+          method: 'POST',
+          mode: 'no-cors',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            grantType: 'refresh_token',
+            refreshToken: apiToken
+          })
+        });
+ 
+        console.log('Token fetched successfully:', response);
+      } catch (error) {
+        console.error('Error fetching token:', error.message);
+      }
+    };
+
+    fetchToken();
+  }, [apiToken]);
+
   return (
-    <div className="App">
-      <Main/>
+    <div>
+      {/* Your component content */}
     </div>
   );
-}
+};
 
-export default App;
+export default YourComponent;
