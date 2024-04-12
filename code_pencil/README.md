@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# Code Pencil
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Code Pencil is an online code compiler and collaborative coding platform inspired by CodePen. It allows users to write, edit, and share HTML, JavaScript, Python, and C++ code snippets in a collaborative environment. Users can also save their projects, authenticate using Firebase Authentication, and store project data in Firestore.
 
-## Available Scripts
+Check out the live project [here](https://code-pencil-bc16d.web.app/).
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Online code compiler supporting HTML, JavaScript, Python, and C++.
+- Real-time collaboration on code projects.
+- User authentication using Firebase Authentication.
+- Saving and retrieving projects using Firestore.
+- Editing feature for saved projects.
+- Integration with the CodeJudge API for online code compilation and evaluation.
+- Utilization of Redux for state management.
+- Implementation of React Router DOM for navigation.
+- Utilization of Context API for global state management.
+- Responsive design for seamless use on various devices.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React.js: Frontend framework for building user interfaces.
+- Firebase: Platform for building web and mobile applications with real-time database and authentication services.
+- Redux: State management library for JavaScript applications.
+- React Router DOM: Declarative routing for React applications.
+- CodeJudge API: Online code compilation and evaluation API.
+- HTML/CSS: Standard markup and styling languages for web development.
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To run this project locally, follow these steps:
 
-### `npm run build`
+1. Clone the repository:
+git clone https://github.com/your-username/code-pencil.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Navigate to the project directory:
+cd code-pencil
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Install dependencies:
 
-### `npm run eject`
+npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Create a Firebase project and configure Firebase Authentication and Firestore.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+5. Obtain API keys for CodeJudge API and Firebase.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+6. Create a `.env` file at the root of your project and add the following environment variables:
+REACT_APP_FIREBASE_API_KEY=your-firebase-api-key
+REACT_APP_FIREBASE_AUTH_DOMAIN=your-firebase-auth-domain
+REACT_APP_FIREBASE_PROJECT_ID=your-firebase-project-id
+REACT_APP_FIREBASE_STORAGE_BUCKET=your-firebase-storage-bucket
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your-firebase-messaging-sender-id
+REACT_APP_FIREBASE_APP_ID=your-firebase-app-id
+REACT_APP_CODEJUDGE_API_KEY=your-codejudge-api-key
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+7. Start the development server:
+npm start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+8. Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
-### Code Splitting
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Sign up for an account or log in using your existing credentials.
+- Create a new code project or load an existing one.
+- Write, edit, and collaborate on code in real-time.
+- Save your project to Firebase Firestore for future access.
+- Compile and evaluate your code using the CodeJudge API.
 
-### Analyzing the Bundle Size
+## Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Special thanks to Vetrivel Ravi for the insightful tutorial series on YouTube, which served as a valuable reference during the development of this project.
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contributing
 
-### Advanced Configuration
+Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## License
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is license free.
